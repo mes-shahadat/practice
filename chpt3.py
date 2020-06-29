@@ -43,7 +43,7 @@ while i < len(new_name):
 print ("this many total used characters is in your name ")
 print (dots)
 # for loop practice
-lp = input("type yes to allow loop practice: ")
+lp = input("type 'yes' to allow loop practice: ")
 if lp == "yes":
     print ("loop practice:")
     for i in range (10):
@@ -55,10 +55,10 @@ print(dots)
 total = 0
 for i in range (0,11):
     total += i
-print (f"total of 10 is {total}")
+print (f"total of 10 with forloop is {total}")
 print ( dots )
 # user input sum
-loopnum = int(input ("plz input a number: "))
+loopnum = int(input ("plz input some number without spaces: "))
 total = 0 
 for i in range (1,loopnum+1):
     total += i
@@ -68,7 +68,7 @@ name_type = input("plz input your number: ")
 total = 0
 for i in range (0, len(name_type)):
     total += int(name_type [i])
-print (f"your total is: {total}")
+print (f"your total with for loop is: {total}")
 print (dots)
 loop_name = input ("input your name: ")
 loop_temp = ""
@@ -94,6 +94,7 @@ else:
 print (dots)
 # number guessing game
 print (dots)
+print("starting number guessing game: [winning number is 45] ")
 winning_number = 45
 guess = int(input ("guess a number between 1 to 100: "))
 total_guess = 1
@@ -113,6 +114,7 @@ while not game_over:
             total_guess += 1
 #random number guessing game with dry code
 print (dots)
+print ("randomized guessing game, winning is = i don't know")
 import random
 win_num = random.randint(1,100)
 totguess = 0
@@ -131,13 +133,17 @@ while not rangame_over:
         totguess += 1
 print (dots)
 # step argument in loop # can't use : instead of , # at the end -1 means reverse
+print ("reverse step argument with forloop")
 for i in range (10,0,-1): # reverse step argument loop
     print (i)
+print ("mes shahadat string for loop without variables")
 noob_me = "mes shahadat" #loop code only in python # don't have to use len(name)# you can also use string without variable
 for i in noob_me:
     print (i)
-lopnu = input ("input a number: ")
+print (dots)
+lopnu = input ("input some number without spaces to sum with for loop: ")
 loptoat = 0
 for i in lopnu:
     loptoat += int(i)
 print (loptoat)
+#end chapter 3 practice
