@@ -44,3 +44,18 @@ add = lambda a,b : a+b
 multiply = lambda a,b : a*b
 print (add(12,34))
 print (multiply(5,6))
+def is_even (n): #used function to check if argument is even
+    return n %2 == 0
+print (is_even(5))
+is_even2 = lambda n: n %2 == 0 #used lambda to check if argument is even
+print (is_even2(6))
+def last_char (s):
+    return s[-1]
+last_char2 = lambda s: s[-1]
+print (last_char('mes shahadat'))
+print (last_char2('mes shahadat'))
+def more_than_5 (s):
+    return len(s) > 5
+more_than_5_2 = lambda s: len(s) > 5
+print (more_than_5('mes shahadat'))
+print (more_than_5_2('mes'))
