@@ -93,6 +93,12 @@ def add (a,b):
     return a+b
 print (add(2,3))# you can write doc center of '''''' single quote. this is really helpful for developers to understand what this function is maded for
 
+def squares (a):
+    return a**2
+s = squares
+print (s (7))
+print (s.__name__) # you can use .__name__ to see the variables function
+
 print (add.__doc__)#use (function name).__doc__ to check the doc name like (sum.__doc__)
 print (sum.__doc__)
 print (help(max))# or you can use help() to check what that built in function is used for
